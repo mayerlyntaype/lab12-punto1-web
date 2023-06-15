@@ -1,0 +1,50 @@
+.post-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .post-details {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .post-details p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .no-post-details {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .no-post-details p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  /* Agrega estilos al enlace dentro de la lista de publicaciones */
+  .post-item a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .post-item a:hover {
+    color: #007bff;
+  }
+  

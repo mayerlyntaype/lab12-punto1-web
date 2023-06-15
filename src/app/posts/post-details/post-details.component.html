@@ -1,0 +1,10 @@
+<h2 class="post-title">Detalles de la Publicación</h2>
+<div *ngIf="post" class="post-details">
+  <p><strong>Título:</strong> {{ post.title }}</p>
+  <p><strong>Autor:</strong> {{ post.author }}</p>
+  <p><strong>Fecha:</strong> {{ post.date }}</p>
+  <p><strong>Contenido:</strong> {{ post.content }}</p>
+</div>
+<div *ngIf="!post" class="no-post-details">
+  <p>No se encontraron detalles de la publicación.</p>
+</div>
